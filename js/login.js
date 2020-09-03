@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function(e){
         e.preventDefault();
         let userEmail = document.getElementById('inputEmail').value;
         localStorage.setItem('email', userEmail);
-        window.location.href = '/principal.html';
+        window.location.href = 'principal.html';
     };
 });
